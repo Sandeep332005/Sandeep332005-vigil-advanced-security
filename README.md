@@ -41,3 +41,17 @@ This repository is a pilot MVP for a banking-focused security platform that comb
 1. Use Python 3.14 or newer.
 2. Run the API with `python3 -m api.main`.
 3. Send JSON requests to `http://127.0.0.1:8000`.
+
+## Publish To GitHub
+
+Create the empty GitHub repository first, then run:
+
+```bash
+./scripts/publish_to_github.sh https://github.com/Sandeep332005/vigil-advanced-security.git
+```
+
+The helper script will:
+
+- add or update `origin`
+- rename the current branch to `main`
+- push the repo to GitHub
