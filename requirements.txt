@@ -1,0 +1,2 @@
+# No external runtime dependencies are required for the MVP scaffold in this environment.
+# The implementation uses Python's standard library so it can run on the provided Python 3.14 runtime.

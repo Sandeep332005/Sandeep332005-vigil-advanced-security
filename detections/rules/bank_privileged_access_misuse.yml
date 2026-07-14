@@ -1,0 +1,18 @@
+title: Bank Privileged Access Misuse
+id: bank-privileged-access-misuse-001
+status: experimental
+description: Detects suspicious privileged actions on critical administrative systems outside approved change windows.
+logsource:
+  product: bank-platform
+  service: privileged-access
+detection:
+  selection:
+    privilege_level: 4
+    asset_criticality: 4
+  condition: selection
+fields:
+  - actor_id
+  - asset_id
+  - action
+  - resource_id
+level: high
