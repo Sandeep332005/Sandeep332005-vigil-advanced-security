@@ -47,7 +47,7 @@ This repository is a pilot MVP for a banking-focused security platform that comb
 Create the empty GitHub repository first, then run:
 
 ```bash
-./scripts/publish_to_github.sh https://github.com/Sandeep332005/vigil-advanced-security.git
+./scripts/publish_to_github.sh https://github.com/Sandeep332005/Sandeep332005-vigil-advanced-security.git
 ```
 
 The helper script will:
